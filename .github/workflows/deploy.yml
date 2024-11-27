@@ -6,6 +6,14 @@ on:
       - main
 
 jobs:
+  tests:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Unit tests
+        run: npm test
+
   build:
     name: Build
     runs-on: ubuntu-latest
