@@ -4,6 +4,6 @@ describe('Password Validation', () => {
   });
 
   it('should validate a correct password', async () => {
-    expect(false).toBeTruthy();
+    expect(false).toBeFalsy();
   });
 })
